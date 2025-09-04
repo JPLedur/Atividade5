@@ -43,3 +43,53 @@ A aplicação é construída com **React 18**, **React Router DOM 6** e utiliza 
 
 ## Estrutura de Pastas
 
+/src
+
+├─ /components
+
+│ ├─ MovieCard.jsx
+
+│ └─ Pagination.jsx
+
+├─ /context
+
+│ └─ FavoritesContext.jsx
+
+├─ /pages
+
+│ ├─ Search.jsx
+
+│ ├─ Details.jsx
+
+│ └─ Favorites.jsx
+
+├─ /services
+
+│ └─ api.js
+
+├─ App.jsx
+
+└─ main.jsx
+
+
+---
+
+## Configuração e Instalação
+
+1. Clone o repositório:
+
+git clone <url-do-repo>
+cd <nome-do-projeto>
+
+2. Instale as dependências:
+
+npm install
+
+3. Execute a aplicação em modo de desenvolvimento:
+
+npm run dev
+
+4. Abra no navegador:
+
+http://localhost:5173
+
